@@ -13,8 +13,6 @@ public class DragAndDrop {
         // Провека, что прямоугольники  поменялись
         $("#column-a").shouldHave(text("B"));
         $("#column-b").shouldHave(text("A"));
-        //экран зависнет
-        sleep(5000);
 
     }
 }
